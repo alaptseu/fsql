@@ -48,7 +48,7 @@ fsql expects the query as a command line argument.
 In general, each query requires a `SELECT` clause (to specify which attributes should be shown), a `FROM` clause (to specify the directories to search in), and a `WHERE` clause (to specify conditions for the files).
 
 ```sql
-SELECT attribute, ... FROM source, ... WHERE conditon
+SELECT attribute, ... FROM source, ... WHERE condition
 ```
 
 You may omit the `SELECT` clause, as well as the `WHERE` clause.
